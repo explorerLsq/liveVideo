@@ -4,7 +4,9 @@ import com.livevideo.enums.resultEnum;
 import com.livevideo.exception.responseException;
 import com.livevideo.service.pushUrlService;
 import com.livevideo.utils.AliyunLiveUtils;
+import org.springframework.stereotype.Service;
 
+@Service
 public class pushUrlServiceImpl implements pushUrlService {
     @Override
     public String getFinallyPushUrl(String sourceId) {

@@ -15,4 +15,5 @@ class pushUrlServiceImplTest {
         String resutl = pushUrlService.getFinallyPushUrl(url);
         System.out.println(resutl);
     }
+    //测试git提交
 }
